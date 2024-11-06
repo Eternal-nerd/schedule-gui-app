@@ -192,6 +192,7 @@ CMakeFiles/schedule-gui-app.dir/src/main.cpp.o
  /usr/include/c++/12/bits/ostream.tcc
  /usr/include/c++/12/istream
  /usr/include/c++/12/bits/istream.tcc
+ /home/skinny/Projects/schedule_gui_app/src/canvas.h
  /usr/include/SDL2/SDL.h
  /usr/include/SDL2/SDL_main.h
  /usr/include/SDL2/SDL_stdinc.h

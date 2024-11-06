@@ -14,10 +14,12 @@ include_directories(${SDL2_INCLUDE_DIRS})
 # add source files:
 set(SOURCES
 	src/main.cpp
+	src/window.cpp
 )
 
 # add headers
 set(HEADERS
+	src/window.h
 )
 
 # add executable

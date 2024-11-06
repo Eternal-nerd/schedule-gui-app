@@ -191,6 +191,7 @@ CMakeFiles/schedule-gui-app.dir/src/main.cpp.o: /home/skinny/Projects/schedule_g
   /usr/include/c++/12/bits/ostream.tcc \
   /usr/include/c++/12/istream \
   /usr/include/c++/12/bits/istream.tcc \
+  /home/skinny/Projects/schedule_gui_app/src/canvas.h \
   /usr/include/SDL2/SDL.h \
   /usr/include/SDL2/SDL_main.h \
   /usr/include/SDL2/SDL_stdinc.h \
@@ -486,6 +487,10 @@ CMakeFiles/schedule-gui-app.dir/src/main.cpp.o: /home/skinny/Projects/schedule_g
 
 /usr/lib/gcc/x86_64-linux-gnu/12/include/pconfigintrin.h:
 
+/usr/lib/gcc/x86_64-linux-gnu/12/include/mwaitxintrin.h:
+
+/usr/include/c++/12/bits/functexcept.h:
+
 /usr/lib/gcc/x86_64-linux-gnu/12/include/avx512bf16intrin.h:
 
 /usr/include/c++/12/bits/allocator.h:
@@ -521,10 +526,6 @@ CMakeFiles/schedule-gui-app.dir/src/main.cpp.o: /home/skinny/Projects/schedule_g
 /usr/include/c++/12/bits/ranges_cmp.h:
 
 /usr/include/c++/12/bits/locale_facets.tcc:
-
-/usr/include/c++/12/bits/functexcept.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/12/include/mwaitxintrin.h:
 
 /usr/include/locale.h:
 
@@ -1071,6 +1072,8 @@ CMakeFiles/schedule-gui-app.dir/src/main.cpp.o: /home/skinny/Projects/schedule_g
 /usr/lib/gcc/x86_64-linux-gnu/12/include/fxsrintrin.h:
 
 /usr/include/c++/12/bits/std_abs.h:
+
+/home/skinny/Projects/schedule_gui_app/src/canvas.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/12/include/lzcntintrin.h:
 
