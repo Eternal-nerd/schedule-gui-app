@@ -2,12 +2,17 @@
 
 #include "window.h"
 
-window::window(int w, int h) {
-	init(w, h);
+window::window() {
+	// FIXME Add window resizing
+	init(800, 600);
 }
 
 window::~window() {
 	cleanup();
+}
+
+SDL_Window* window::getWindowPtr() {
+	return win;
 }
 
 void window::init(int w, int h) {

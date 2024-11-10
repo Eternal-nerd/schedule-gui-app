@@ -3,17 +3,19 @@
 #include <SDL2/SDL.h>
 
 class window {
-	public:
-		window(int w, int h);
-		~window();
+public:
+	window();
+	~window();
 
-	private:
-		int width;
-		int height;
-		SDL_Window* win = nullptr;
-		SDL_Surface* surf = nullptr;
+	SDL_Window* getWindowPtr();
 
-		void init(int w, int h);
+private:
+	int width;
+	int height;
+	SDL_Window* win = nullptr;
+	SDL_Surface* surf = nullptr;
 
-		void cleanup();
+	void init(int w, int h);
+
+	void cleanup();
 };
