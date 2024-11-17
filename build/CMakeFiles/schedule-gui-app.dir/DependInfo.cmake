@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/skinny/Projects/schedule_gui_app/src/canvas.cpp" "CMakeFiles/schedule-gui-app.dir/src/canvas.cpp.o" "gcc" "CMakeFiles/schedule-gui-app.dir/src/canvas.cpp.o.d"
   "/home/skinny/Projects/schedule_gui_app/src/engine.cpp" "CMakeFiles/schedule-gui-app.dir/src/engine.cpp.o" "gcc" "CMakeFiles/schedule-gui-app.dir/src/engine.cpp.o.d"
   "/home/skinny/Projects/schedule_gui_app/src/main.cpp" "CMakeFiles/schedule-gui-app.dir/src/main.cpp.o" "gcc" "CMakeFiles/schedule-gui-app.dir/src/main.cpp.o.d"
-  "/home/skinny/Projects/schedule_gui_app/src/window.cpp" "CMakeFiles/schedule-gui-app.dir/src/window.cpp.o" "gcc" "CMakeFiles/schedule-gui-app.dir/src/window.cpp.o.d"
   )
 
 # Targets to which this target links.

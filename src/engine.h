@@ -1,6 +1,6 @@
 #pragma once
 
-#include "window.h"
+#include "canvas.h"
 
 class engine {
 public:
@@ -8,8 +8,7 @@ public:
 	~engine();
 
 	void run();
-
+	
 private:
-	window* win;
-
+	canvas* canv;
 };

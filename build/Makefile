@@ -142,6 +142,30 @@ run/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/build
 .PHONY : run/fast
 
+src/canvas.o: src/canvas.cpp.o
+.PHONY : src/canvas.o
+
+# target to build an object file
+src/canvas.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/schedule-gui-app.dir/build.make CMakeFiles/schedule-gui-app.dir/src/canvas.cpp.o
+.PHONY : src/canvas.cpp.o
+
+src/canvas.i: src/canvas.cpp.i
+.PHONY : src/canvas.i
+
+# target to preprocess a source file
+src/canvas.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/schedule-gui-app.dir/build.make CMakeFiles/schedule-gui-app.dir/src/canvas.cpp.i
+.PHONY : src/canvas.cpp.i
+
+src/canvas.s: src/canvas.cpp.s
+.PHONY : src/canvas.s
+
+# target to generate assembly for a file
+src/canvas.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/schedule-gui-app.dir/build.make CMakeFiles/schedule-gui-app.dir/src/canvas.cpp.s
+.PHONY : src/canvas.cpp.s
+
 src/engine.o: src/engine.cpp.o
 .PHONY : src/engine.o
 
@@ -190,30 +214,6 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/schedule-gui-app.dir/build.make CMakeFiles/schedule-gui-app.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
-src/window.o: src/window.cpp.o
-.PHONY : src/window.o
-
-# target to build an object file
-src/window.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/schedule-gui-app.dir/build.make CMakeFiles/schedule-gui-app.dir/src/window.cpp.o
-.PHONY : src/window.cpp.o
-
-src/window.i: src/window.cpp.i
-.PHONY : src/window.i
-
-# target to preprocess a source file
-src/window.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/schedule-gui-app.dir/build.make CMakeFiles/schedule-gui-app.dir/src/window.cpp.i
-.PHONY : src/window.cpp.i
-
-src/window.s: src/window.cpp.s
-.PHONY : src/window.s
-
-# target to generate assembly for a file
-src/window.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/schedule-gui-app.dir/build.make CMakeFiles/schedule-gui-app.dir/src/window.cpp.s
-.PHONY : src/window.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -224,15 +224,15 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... run"
 	@echo "... schedule-gui-app"
+	@echo "... src/canvas.o"
+	@echo "... src/canvas.i"
+	@echo "... src/canvas.s"
 	@echo "... src/engine.o"
 	@echo "... src/engine.i"
 	@echo "... src/engine.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
-	@echo "... src/window.o"
-	@echo "... src/window.i"
-	@echo "... src/window.s"
 .PHONY : help
 
 

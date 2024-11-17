@@ -83,19 +83,19 @@ CMakeFiles/schedule-gui-app.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/schedule-gui-app.dir/src/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/skinny/Projects/schedule_gui_app/src/main.cpp -o CMakeFiles/schedule-gui-app.dir/src/main.cpp.s
 
-CMakeFiles/schedule-gui-app.dir/src/window.cpp.o: CMakeFiles/schedule-gui-app.dir/flags.make
-CMakeFiles/schedule-gui-app.dir/src/window.cpp.o: /home/skinny/Projects/schedule_gui_app/src/window.cpp
-CMakeFiles/schedule-gui-app.dir/src/window.cpp.o: CMakeFiles/schedule-gui-app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/skinny/Projects/schedule_gui_app/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/schedule-gui-app.dir/src/window.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/schedule-gui-app.dir/src/window.cpp.o -MF CMakeFiles/schedule-gui-app.dir/src/window.cpp.o.d -o CMakeFiles/schedule-gui-app.dir/src/window.cpp.o -c /home/skinny/Projects/schedule_gui_app/src/window.cpp
+CMakeFiles/schedule-gui-app.dir/src/canvas.cpp.o: CMakeFiles/schedule-gui-app.dir/flags.make
+CMakeFiles/schedule-gui-app.dir/src/canvas.cpp.o: /home/skinny/Projects/schedule_gui_app/src/canvas.cpp
+CMakeFiles/schedule-gui-app.dir/src/canvas.cpp.o: CMakeFiles/schedule-gui-app.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/skinny/Projects/schedule_gui_app/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/schedule-gui-app.dir/src/canvas.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/schedule-gui-app.dir/src/canvas.cpp.o -MF CMakeFiles/schedule-gui-app.dir/src/canvas.cpp.o.d -o CMakeFiles/schedule-gui-app.dir/src/canvas.cpp.o -c /home/skinny/Projects/schedule_gui_app/src/canvas.cpp
 
-CMakeFiles/schedule-gui-app.dir/src/window.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/schedule-gui-app.dir/src/window.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/skinny/Projects/schedule_gui_app/src/window.cpp > CMakeFiles/schedule-gui-app.dir/src/window.cpp.i
+CMakeFiles/schedule-gui-app.dir/src/canvas.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/schedule-gui-app.dir/src/canvas.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/skinny/Projects/schedule_gui_app/src/canvas.cpp > CMakeFiles/schedule-gui-app.dir/src/canvas.cpp.i
 
-CMakeFiles/schedule-gui-app.dir/src/window.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/schedule-gui-app.dir/src/window.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/skinny/Projects/schedule_gui_app/src/window.cpp -o CMakeFiles/schedule-gui-app.dir/src/window.cpp.s
+CMakeFiles/schedule-gui-app.dir/src/canvas.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/schedule-gui-app.dir/src/canvas.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/skinny/Projects/schedule_gui_app/src/canvas.cpp -o CMakeFiles/schedule-gui-app.dir/src/canvas.cpp.s
 
 CMakeFiles/schedule-gui-app.dir/src/engine.cpp.o: CMakeFiles/schedule-gui-app.dir/flags.make
 CMakeFiles/schedule-gui-app.dir/src/engine.cpp.o: /home/skinny/Projects/schedule_gui_app/src/engine.cpp
@@ -114,14 +114,14 @@ CMakeFiles/schedule-gui-app.dir/src/engine.cpp.s: cmake_force
 # Object files for target schedule-gui-app
 schedule__gui__app_OBJECTS = \
 "CMakeFiles/schedule-gui-app.dir/src/main.cpp.o" \
-"CMakeFiles/schedule-gui-app.dir/src/window.cpp.o" \
+"CMakeFiles/schedule-gui-app.dir/src/canvas.cpp.o" \
 "CMakeFiles/schedule-gui-app.dir/src/engine.cpp.o"
 
 # External object files for target schedule-gui-app
 schedule__gui__app_EXTERNAL_OBJECTS =
 
 /home/skinny/Projects/schedule_gui_app/bin/schedule-gui-app: CMakeFiles/schedule-gui-app.dir/src/main.cpp.o
-/home/skinny/Projects/schedule_gui_app/bin/schedule-gui-app: CMakeFiles/schedule-gui-app.dir/src/window.cpp.o
+/home/skinny/Projects/schedule_gui_app/bin/schedule-gui-app: CMakeFiles/schedule-gui-app.dir/src/canvas.cpp.o
 /home/skinny/Projects/schedule_gui_app/bin/schedule-gui-app: CMakeFiles/schedule-gui-app.dir/src/engine.cpp.o
 /home/skinny/Projects/schedule_gui_app/bin/schedule-gui-app: CMakeFiles/schedule-gui-app.dir/build.make
 /home/skinny/Projects/schedule_gui_app/bin/schedule-gui-app: /usr/lib/x86_64-linux-gnu/libSDL2.so

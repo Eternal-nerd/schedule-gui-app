@@ -14,13 +14,13 @@ include_directories(${SDL2_INCLUDE_DIRS})
 # add source files:
 set(SOURCES
 	src/main.cpp
-	src/window.cpp
+	src/canvas.cpp
 	src/engine.cpp
 )
 
 # add headers
 set(HEADERS
-	src/window.h
+	src/canvas.h
 	src/engine.h
 )
 

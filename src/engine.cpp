@@ -1,24 +1,29 @@
 #include "engine.h"
 
+#include <iostream>
+#include <stdexcept>
 #include <thread>
 
 #include <SDL2/SDL.h>
 
 engine::engine() {
-	win = new window();
+	canv = new canvas();
 }
 
 engine::~engine() {
-	delete win;
+	delete canv;
 }
 
 void engine::run() {
-  // Main loop flag
-  bool quit = false;
-  bool resized = false;
+	// testing:
+	canv->testDraw();
 
-  // Event handler
-  SDL_Event e;
+	// Main loop flag
+	bool quit = false;
+	bool resized = false;
+
+	// Event handler
+	SDL_Event e;
 
   // While application is running
   while (!quit) {
@@ -70,8 +75,8 @@ void engine::run() {
               << " FPS | thread id: " << std::this_thread::get_id() << "). \n";
 	*/
     // Update the surface
-    SDL_UpdateWindowSurface(win->getWindowPtr());
-
+    SDL_UpdateWindowSurface(canv->getWindowPtr());
+	
     //std::this_thread::sleep_for(20ms);
     // std::cout << "End of frame. \n";
   }
