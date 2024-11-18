@@ -4,11 +4,11 @@
 
 class engine {
 public:
-	engine();
-	~engine();
+  engine();
+  ~engine();
 
-	void run();
-	
+  void run();
+
 private:
-	canvas* canv;
+  canvas *canv;
 };
