@@ -1,6 +1,8 @@
 #include <cstdlib>
 #include <iostream>
 
+#include <SDL3/SDL_main.h>
+
 #include "engine.h"
 
 int main() {

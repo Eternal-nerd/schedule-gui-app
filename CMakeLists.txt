@@ -11,14 +11,13 @@ find_package(SDL3 REQUIRED CONFIG REQUIRED COMPONENTS SDL3-shared)
 # add source files:
 set(SOURCES
 	src/main.cpp
-	src/canvas.cpp
 	src/engine.cpp
 )
 
 # add headers
 set(HEADERS
-	src/canvas.h
 	src/engine.h
+	src/color.h
 )
 
 # add executable

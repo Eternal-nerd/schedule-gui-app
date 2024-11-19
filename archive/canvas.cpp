@@ -17,8 +17,8 @@ void canvas::init(int w, int h) {
   height = h;
 
   // init SDL
-  if (SDL_Init(SDL_INIT_VIDEO) < 0) {
-    throw std::runtime_error("Failed to initialize SDL. ");
+  if (!SDL_Init(SDL_INIT_VIDEO)) {
+		throw std::runtime_error("Failed to initialize SDL. ");
   }
 
   // create SDL window
