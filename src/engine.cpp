@@ -25,6 +25,10 @@ void engine::init(int w, int h) {
     throw std::runtime_error("Failed to create SDL window. ");
   }
 
+  if (!SDL_SetWindowResizable(win_, true)) {
+    throw std::runtime_error("Failed to make window resizable. ");
+  }
+
   surf_ = SDL_GetWindowSurface(win_);
 }
 
@@ -43,7 +47,6 @@ void engine::run() {
   while (!quit) {
     // Handle events on queue
     while (SDL_PollEvent(&e) != 0) {
-      // std::cout << "" << '\n';
       switch (e.type) {
       case SDL_EVENT_QUIT: // User requests quit
         quit = true;
@@ -64,21 +67,7 @@ case SDL_WINDOWEVENT:
       }
     }
 
-    /*if (resized) {
-      std::cout << "Resizing...\n";
-      resized = false;
-      canv->updateSize();
-      cam->updateSize(canv->screen_width, canv->screen_height);
-      // SDL_GetWindowSize(canv->getWindowPtr(), &canv->screen_width,
-      //                   &canv->screen_height);
-    }*/
-
     // MEASURE TIME START HERE
-
-    // Clear screen (fill with black)
-    // SDL_FillRect(_screenSurface, nullptr,
-    //             SDL_MapRGB(_screenSurface->format, 0x00, 0x00, 0x00));
-
     // auto startTime = high_resolution_clock::now();
     //  main spot stuff is drawn
     // auto stopTime = high_resolution_clock::now();
@@ -87,8 +76,8 @@ case SDL_WINDOWEVENT:
     // double fps = 1000 / ms;
     /*std::cout << "render() duration: " << ms << " milliseconds (" << fps
               << " FPS | thread id: " << std::this_thread::get_id() << ").
-       \n";
-        */
+       \n";*/
+
     // Update the surface
     SDL_UpdateWindowSurface(win_);
 
