@@ -7,7 +7,7 @@
 
 int main() {
   try {
-    std::cout << "HELLO WORLT. \n";
+    std::cout << "HELLO WORLT. ;)\n";
     engine eng;
     eng.run();
   } catch (const std::exception &e) {
