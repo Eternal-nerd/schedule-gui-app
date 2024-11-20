@@ -1,4 +1,0 @@
-/home/skinny/Projects/schedule_gui_app/build/CMakeFiles/schedule-gui-app.dir
-/home/skinny/Projects/schedule_gui_app/build/CMakeFiles/run.dir
-/home/skinny/Projects/schedule_gui_app/build/CMakeFiles/edit_cache.dir
-/home/skinny/Projects/schedule_gui_app/build/CMakeFiles/rebuild_cache.dir
