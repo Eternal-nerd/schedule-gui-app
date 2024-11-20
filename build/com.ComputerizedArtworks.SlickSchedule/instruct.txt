@@ -1,0 +1,2 @@
+create-android-project.py --variant aar com.CAW.SlickSchedule main.cpp
+

@@ -1,0 +1,4 @@
+org.libsdl.app.test.app-androidTest-0 /home/skinny/Projects/schedule_gui_app/android/android-project/app/build/generated/res/resValues/androidTest/debug
+org.libsdl.app.test.app-mergeDebugAndroidTestResources-1 /home/skinny/Projects/schedule_gui_app/android/android-project/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
+org.libsdl.app.test.app-mergeDebugAndroidTestResources-2 /home/skinny/Projects/schedule_gui_app/android/android-project/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
+org.libsdl.app.test.app-merged_res-3 /home/skinny/Projects/schedule_gui_app/android/android-project/app/build/intermediates/merged_res/debugAndroidTest

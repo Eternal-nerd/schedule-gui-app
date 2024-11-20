@@ -1,0 +1,4 @@
+/home/skinny/Projects/schedule_gui_app/android/CMake_test/build/CMakeFiles/schedule-gui-app.dir
+/home/skinny/Projects/schedule_gui_app/android/CMake_test/build/CMakeFiles/run.dir
+/home/skinny/Projects/schedule_gui_app/android/CMake_test/build/CMakeFiles/edit_cache.dir
+/home/skinny/Projects/schedule_gui_app/android/CMake_test/build/CMakeFiles/rebuild_cache.dir

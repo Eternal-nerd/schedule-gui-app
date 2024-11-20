@@ -1,0 +1,2 @@
+/home/skinny/Projects/schedule_gui_app/android/android-project/app/jni/Android.mk
+/home/skinny/Projects/schedule_gui_app/android/android-project/app/jni/Application.mk
